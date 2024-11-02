@@ -1,0 +1,32 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #007bff, #6f42c1);
+    color: white;
+    .banner-text {
+      h2 {
+        margin: 0;
+      }
+    }
+  
+    .enquire-button {
+      border: 1px solid white;
+      color: #007bff;
+      background-color: white;
+      font-weight: 600;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    @media (max-width: 375px) {
+    
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+    
+  }
+  
+  

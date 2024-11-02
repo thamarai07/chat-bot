@@ -1,0 +1,341 @@
+// Online Training Header Block 
+.onlinetraning {
+  text-align: left;
+  border-bottom-left-radius: 15rem;
+  margin: 0px !important;
+}
+
+.MuiMenu-list {
+  color: #000000 !important;
+}
+
+.MuiSelect-icon {
+  path {
+    color: #0d71b9;
+    d: path("M 7 10 l 5 5 l 5 -5 Z");
+  }
+}
+
+.online-training-bread-crumbs {
+  margin-left: 0px;
+  margin-bottom: 15px;
+
+  .bread-crumbs-link {
+    text-decoration-line: underline;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration-color: #ffffff;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .bread-crumbs-text {
+    color: #ffffff;
+    opacity: 0.8;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .MuiBreadcrumbs-separator {
+    margin: 0px !important;
+    color: #ffffff;
+  }
+}
+
+.reg-success-message {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+}
+
+.onlineTraining-header-container {
+  width: 100%;
+  background: #f1eeee;
+
+  .onlineTraining-header-section {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(100.81deg, #0d71b9 11.71%, #8d22b2 80.17%);
+    border-bottom-left-radius: 9rem;
+    opacity: 1;
+  }
+}
+
+.headerContent {
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.course-header-coverText {
+  color: #ffffff;
+}
+
+.course-content {
+  margin-left: 4rem;
+  padding-top: 0rem;
+
+  @media screen and (max-width: "600px") {
+    margin: 1rem;
+  }
+}
+
+.register-form-show {
+  height: 3rem;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 3.75rem;
+  margin: 2rem;
+  margin-left: 4rem;
+  padding: 0px;
+
+  @media screen and (max-width: "600px") {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align-last: center;
+    text-align: -webkit-center;
+    text-align: center;
+    box-shadow: 0px 1px;
+    height: auto;
+    margin: auto;
+    margin-top: 1rem;
+  }
+}
+
+.full-name,
+.phone-number,
+.email {
+  font-style: italic;
+  // width: 12.5rem;
+  border-right: 1px solid #c1c1c1;
+  margin-left: 15px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px !important;
+  width: 18%;
+
+  @media screen and (max-width: "600px") {
+    border-right: none;
+    border-bottom: 1px solid #c1c1c1;
+    width: 90%;
+  }
+}
+
+.select-course {
+  width: 18%
+}
+
+.registerButton {
+  border-radius: 60px;
+  width: 18%;
+  margin-right: 0.5rem;
+  color: #ffffff !important;
+  background: linear-gradient(98.92deg,
+      #0d71b9 8.64%,
+      #9c1ec8 93.65%);
+
+  @media screen and (max-width: 600px) {
+    display: inherit;
+    margin-bottom: 3px;
+    width: 65%;
+  }
+}
+
+.register-btn-disable {
+  opacity: 0.4 !important;
+  color: #ffffff !important;
+  margin-right: 0.5rem;
+}
+
+.row-image-align {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.online-training-img {
+  width: 100%;
+  height: auto;
+
+  @media screen and (min-width: 1600px) {
+    width: auto;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    display: flex;
+  }
+}
+
+//Course Info Container 
+.courses {
+  margin: 0;
+
+  .col {
+    padding: 0;
+  }
+
+  .MuiTab-wrapper {
+    margin-bottom: 1rem;
+  }
+
+  .MuiTabs-root {
+    background: #f1eeee;
+  }
+
+  .Mui-selected {
+    background: white;
+  }
+
+  .MuiTab-root {
+    width: 33.3%;
+    max-width: 100%;
+    min-width: 10rem;
+    padding: 30px;
+  }
+}
+
+.cardsBlock {
+  padding: 0;
+  width: 70%;
+
+  @media screen and (max-width: 1000px) {
+    width: auto;
+  }
+}
+
+.categoriesBlock {
+  width: 35%;
+  max-width: 35%;
+  margin-left: -1vw;
+  padding: 0;
+
+  @media screen and (min-width: 1200px) {
+    width: 25%;
+    max-width: 25%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+// SideBar Styles Block
+.header-text-wrapper {
+  margin: 2rem 1rem;
+  width: 100%;
+}
+
+.course-text {
+  color: #0d71b9;
+  margin: 0px !important;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-sidebar-container {
+  // height: 100%;
+  // width: 100%;
+  box-sizing: border-box;
+  background: #f1eeee;
+  box-shadow: 0px 0px 0px rgba(166, 166, 166, 0.25);
+}
+
+.course-sidebar {
+  background: #f1eeee !important;
+  border: none !important;
+  border-radius: 0px !important;
+  width: 100%;
+  margin-top: 40px !important;
+  margin-right: 0px !important;
+}
+
+.course-header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-label-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.course-label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+  letter-spacing: 0.3px;
+  color: #18232a;
+}
+
+.expand-box {
+  background: #0d71b9;
+  border-radius: 50px;
+}
+
+.course-categories {
+  margin-top: 1rem;
+
+  @media screen and (max-width: 1000px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 600px) {
+    max-height: 10rem;
+    overflow: auto;
+  }
+}
+
+.MuiDivider-root {
+  background-color: #807575 !important;
+}
+
+.course-categories-clear {
+  color: #ee2c2c;
+  font-weight: 500;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .clear-icon {
+    width: 17px;
+    margin-right: 2px;
+  }
+}
+
+.course-catagory-count {
+  background: #0d71b9;
+  border-radius: 14.5px;
+  width: 37px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 1rem;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+// Courses Content Styles Block

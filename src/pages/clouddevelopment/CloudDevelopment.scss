@@ -1,0 +1,119 @@
+.cloud-development-container {
+    width: 100%;
+    height: fit-content;
+
+    .cloud-development-header-container {
+        margin-left: 70px;
+        height: auto;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+
+        .title {
+            margin-top: 0.5rem;
+
+            .title-header {
+                font-weight: 700;
+                font-size: 2.5rem;
+                color: #FFFFFF;
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+            }
+
+            .title-subheader {
+                font-weight: 400;
+                font-size: 20px;
+                color: #FFFFFF;
+                word-wrap: break-word;
+            }
+        }
+    }
+
+    .body {
+
+        .benefits {
+            background: #F2FAFC;
+            padding: 90px 269px 165px 172px;
+
+            .benefits-header {
+                font-weight: 700;
+                font-size: 35px;
+                color: #0864A6;
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+
+            .benefits-section {
+                display: flex;
+                align-items: center;
+                margin-bottom: 235px;
+                justify-content: space-between;
+            }
+
+            .benefits-section-content {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #18232A;
+                // height: 461px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .column-2 {
+                margin-left: 122px;
+            }
+        }
+
+        .recent-projects {
+            background-color: #FFFFFF;
+            padding-top: 72px;
+            padding-bottom: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            align-items: center;
+
+            .recent-projects-header {
+                font-weight: 700;
+                font-size: 35px;
+                color: #0864A6;
+                margin-bottom: 60px;
+                text-align: center;
+            }
+
+            .recent-projects-content {
+                max-width: 90%;
+                min-width: 75%;
+
+                .rec-carousel-wrapper {
+                    flex-direction: row;
+
+                    .rec-pagination {
+                        flex-direction: column;
+                        width: 5%;
+                        height: 295px;
+
+                        .rec-dot {
+                            width: 20px;
+                            height: 20px;
+                            background: #E9EEF1;
+                            border: 1px solid #E8E8E8;
+                        }
+
+                        .rec-dot_active {
+                            width: 20px;
+                            height: 20px;
+                            background: #0D2058;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.global-education-success {
+    background: linear-gradient(to right, #0D71B9, #9C1EC8);
+    color: white;
+
+    @media (max-width: 425px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+  }
+  

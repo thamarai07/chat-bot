@@ -1,0 +1,66 @@
+.FinalSection-container {
+  .FinalSection-title-container {
+    width: 100%;
+    text-align: center;
+  }
+  .section-title {
+    font-size: 3em;
+    color: #000;
+    text-align: center;
+    width: 100%;
+  }
+
+  .section-sub-title {
+    font-size: 2.5em;
+    color: #000;
+    text-align: center;
+    width: 100%;
+  }
+
+  @media (max-width: 425px) {
+    .section-title {
+      font-size: 2rem;
+    }
+
+    .section-sub-title {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+
+    
+  }
+  .FinalSections-carousel {
+    .carousel-inner {
+      display: flex;
+      align-items: center;
+    }
+
+    .carousel-control-prev {
+      .carousel-control-prev-icon {
+        background-color: #fff;
+        width:3rem !important;
+        height: 3rem !important;
+
+        background-image: url("../../../assets/rightArrowIcon.svg");
+        transform: rotate(180deg);
+        z-index: 0;
+      }
+    }
+
+    .carousel-control-next {
+      .carousel-control-next-icon {
+        background-color: #fff;
+        width:3rem !important;
+        height: 3rem !important;
+        background-image: url("../../../assets/rightArrowIcon.svg");
+        z-index: 0;
+      }
+    }
+    .FinalSection-group {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 8rem;
+    }
+  }
+}

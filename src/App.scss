@@ -1,0 +1,160 @@
+@import "~bootstrap/scss/bootstrap";
+
+.app {
+  height: 100%;
+  width: 100%;
+  // text-transform: capitalize !important;
+
+  .app-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.row {
+  margin: 0px;
+}
+
+.row>* {
+  padding: 0px;
+}
+
+.MuiButtonBase-root {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: inherit;
+  padding: 6px 8px;
+  display: inherit;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.whatsAppBtn {
+  right: 30px;
+  position: fixed;
+  bottom: 30px;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+
+  .whatsAppIcon {
+    width: 100%;
+  }
+}
+
+.hotNotification {
+  right: 30px;
+  position: fixed;
+  bottom: 100px;
+  width: 44px;
+
+  animation-name: shake;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 999;
+  animation-delay: .5s;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(15deg)
+  }
+
+  100% {
+    transform: rotate(-15deg)
+  }
+}
+
+.componentContainer {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.componentContainerDark {
+  background: #f5f5f5;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.componentSection {
+  width: 85%;
+  display: flex;
+  place-content: center;
+  margin: 2rem auto;
+
+  .row {
+    margin: 2rem 0;
+  }
+}
+
+.app-carousel-indicators {
+  position: relative;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.app-carousel-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #bbb;
+  /* Default color */
+  margin: 0 5px;
+  /* Adjust spacing between dots */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.active-slide {
+  background-color: blue;
+}
+
+.carouselContainer::after {
+  transform: translateX(100)
+}
+
+.carouselContainer {
+  position: relative;
+  animation: myfirst 5s;
+  animation-direction: alternate;
+}
+
+.course-label-container {
+  margin-bottom: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+}
+.course-label {
+  font-size: 0.865rem;
+}
+
+.about-us-description {
+  line-height: 28px;
+}
+.carousel-inner {overflow: visible;left: 0%;}
+
+@keyframes myfirst {
+  25% {
+    left: 0px;
+    top: 0px;
+  }
+
+  0% {
+    left: 200px;
+    top: 0px;
+  }
+}
+

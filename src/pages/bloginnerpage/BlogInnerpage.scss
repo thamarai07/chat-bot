@@ -1,0 +1,197 @@
+.blogs-body {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+}
+
+.blogs-main {
+  width: 70%;
+  padding: 1rem;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+.related-blogs {
+  width: 30%;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+.design-heading {
+  margin: 3%;
+  margin-left: 35% !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  background: linear-gradient(98.92deg, #0d71b9 8.64%, #8813b0 93.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+}
+.trend-image-blog {
+  // margin-left: 32% !important;
+  // height: 50%;
+}
+.design-page {
+  margin-top: -12% !important;
+  padding-left: 8% !important;
+  padding-right: 20%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #18232a;
+  margin-left: 6% !important;
+}
+.blog-line {
+  width: 865px;
+  height: 0px;
+  margin-bottom: 6% !important;
+  margin-left: 7% !important;
+  border: 1px solid #9b9b9b;
+}
+.blog-desing-card {
+  margin: 5%;
+  padding: 10%;
+  background: #ffffff;
+  border: 1px solid #d7d4d4;
+  box-shadow: 0px -2px 8px 5px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+.blog-heading-card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  background: linear-gradient(92.15deg, #0d71b9 -10.78%, #9c1ec8 113.03%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.blog-paragraph-one {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #18232a;
+  margin-left: 1rem;
+}
+.blog-image-frist {
+  margin-top: -26% !important;
+}
+.blog-paragraph-two {
+  margin-top: -6% !important;
+  padding-left: 4% !important;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #18232a;
+}
+.blog-image-second {
+  margin-top: -27% !important;
+}
+.blog-paragraph-three {
+  margin-top: -6% !important;
+  padding-left: 4% !important;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #18232a;
+}
+.blog-image-third {
+  margin-top: -26% !important;
+}
+.blog-paragraph-four {
+  margin-top: -6% !important;
+  padding-left: 4% !important;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #18232a;
+}
+.blog-image-fourth {
+  margin-top: -26% !important;
+}
+.blog-signature {
+  margin-left: 10% !important;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6d6d6d;
+}
+.blog-faculty-signature {
+  margin-left: 9% !important;
+  margin-top: -1%;
+  font-family: "Mr De Haviland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 61px;
+  color: #14098d;
+}
+.blog-powred-by {
+  margin-left: 10% !important;
+
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4d4d4d;
+}
+
+.header-container {
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-top: 50px;
+  .header-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 25px;
+  }
+}
+.list-icon:after {
+  content: " \003E";
+}
+.blog-content {
+  padding: 1rem;
+}
+
+.blog-heading-container {
+  height: 289px;
+  padding-left: 90px;
+  padding-right: 205px;
+
+  @media screen and (max-width: 800px) {
+    padding: 1rem;
+  }
+
+  .blog-heading-content {
+    margin-top: 26px;
+    @media screen and (max-width: 800px) {
+      margin-top: 0;
+    }
+  }
+
+  .course-detailes-title {
+    font-weight: 900;
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 21px;
+    margin-bottom: 1rem;
+  }
+}

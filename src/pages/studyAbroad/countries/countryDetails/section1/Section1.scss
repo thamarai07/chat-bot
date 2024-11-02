@@ -1,0 +1,39 @@
+.section {
+    background-color: #fff;
+    
+    h1 {
+      color: #000;
+    }
+  
+    p {
+      font-size: 1.25rem;
+      color: #000;
+    }
+    .image-container {
+      justify-content: flex-end;
+    }
+    .img-fluid {
+      width: 100%;
+
+    }
+
+    @media (max-width: 1024px) { 
+      .img-fluid {
+        width: 100%
+      }
+  
+      p {
+        text-align: justify;
+        font-size: 1rem;
+        }
+    }
+    @media (max-width: 425px) {
+
+      h1 {
+        font-size: 1.5rem;
+      }
+      
+      
+    }
+  }
+  

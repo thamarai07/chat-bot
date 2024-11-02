@@ -1,0 +1,74 @@
+.gallery-services-section {
+  text-align: center;
+  max-width: 100% !important;
+  .services-title {
+    font-size: 2rem;
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .service-card {
+    border: none;
+    box-shadow: 1px 2px 3px #6f6b6b;
+    background: #EAD1E8;
+    border-radius: 0px;
+    flex: 1;
+    max-height: 27rem;
+    &:hover {
+      cursor: pointer;
+      box-shadow: 1px 2px 6px #6f6b6b;
+    }
+    .service-icon-wrapper {
+      display: flex;
+      align-items: end;
+      height: 50%;
+    }
+
+    .service-icon {
+      width: 100%;
+      height: 100%;
+    }
+
+    .service-title {
+      font-size: 1.2rem;
+      color: #000;
+      margin-bottom: 1.7rem;
+    }
+
+    .service-description {
+      font-size: 1rem;
+      color: #565555;
+      overflow: hidden;
+      text-overflow: ellipsis; 
+      display: -webkit-box;        /* Defines a flex container */
+      -webkit-box-orient: vertical; /* Sets the orientation of the flex container to vertical */
+      -webkit-line-clamp: 5;       /* Limits the text to 3 lines */
+      overflow: hidden;            /* Hides the overflowing text */
+      text-overflow: ellipsis;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .services-title {
+      font-size: 1.5rem;
+    }
+    .service-card {
+      max-height: 23rem !important;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .service-card {
+      margin-left: 0.5rem !important;
+      margin-right: 0.5rem !important;
+      max-height: 18rem !important;
+    }
+    .service-title {
+      font-size: 1rem !important;
+    }
+    .service-description{
+      font-size: 0.8rem !important;
+    }
+  }
+}

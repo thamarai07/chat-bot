@@ -1,0 +1,42 @@
+.course-tab {
+  width: 100%;
+}
+
+.tab-list {
+  width: 100%;
+}
+
+.MuiTabs-flexContainer {
+  display: flex;
+  justify-content: space-around;
+
+  @media screen and (max-width: 600px) {
+    justify-content: space-between;
+  }
+}
+
+.course-tab-title {
+  opacity: 0.5;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  line-height: 24px;
+  text-align: center;
+  color: black;
+}
+
+.course-tab-title-active {
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 1rem;
+  font-family: "Montserrat";
+  line-height: 24px;
+  text-align: center;
+  background-color: white;
+  background: linear-gradient(92.15deg, #0d71b9 -10.78%, #9c1ec8 113.03%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}

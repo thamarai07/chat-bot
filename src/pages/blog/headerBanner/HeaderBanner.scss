@@ -1,0 +1,50 @@
+.blog-header-banner {
+  .blog-details-header-title {
+    color: #fff;
+    width: 100%;
+    // background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 50%, transparent);
+    opacity: 1;
+
+    .title {
+      font-weight: 700;
+      font-size: 3.5rem;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      font-weight: 400;
+      font-size: 3rem;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+
+    .underline {
+      width: 10rem;
+      height: 7px ;
+      border-radius: 5px;
+      background: linear-gradient(to right, #0D71B9, #9C1EC8);
+      margin-bottom: 0.5rem;
+    }
+
+    .description {
+      text-align: justify;
+    }
+    
+
+    @media (max-width: 425px) {
+      .title {
+        font-size: 2rem;
+      }
+
+      .subtitle {
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: #ffffff;
+        margin-bottom: 1rem;
+      }
+
+      
+    }
+  }
+}

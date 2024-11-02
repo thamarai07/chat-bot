@@ -1,0 +1,112 @@
+{
+  "Tiles": {
+    "tile1": {
+      "title": "Study Abroad",
+      "img": "",
+      "url": "/studyAbroad",
+      "imageClass": "tile-OnlineTraining"
+    },
+    "tile2": {
+      "title": "Trainings",
+      "img": "",
+      "url": "/online-training",
+      "imageClass": "tile-trainings"
+    },
+    "tile3": {
+      "title": "IT Staffing",
+      "img": "",
+      "url": "/it-staffing",
+      "imageClass": "tile-webDevelopment"
+    },
+    "tile4": {
+      "title": "Software Development",
+      "img": "",
+      "url": "/webDevelopment/web",
+      "imageClass": "tile-itStaffing"
+    }
+  },
+  "HomeAboutUs": {
+    "title": "About Us",
+    "para1": "Welcome to Nybbletechnosoft, your gateway to cutting-edge cloud-based software solutions.. Our forte is developing cutting-edge programmes that pave the route to your achievement. Our cloud development solutions are available to support you on your journey, whether you're using Google App Engine, Amazon Web Services, or Microsoft Azure.",
+    "para2": "Experts on our team are here to help you navigate the challenging process of developing robust SaaS applications. We will work with you every step of the way, whether it's developing new solutions in languages like.NET, PHP, and Java or improving the performance of your current infrastructure. Our proficiency in developing cloud-native applications guarantees a trouble-free journey to success.",
+    "para3": "Our commitment to your growth extends beyond software development. We provide a wide array of services, from high-quality application development to assistance on studying abroad to IT staffing solutions and online training programmes. Our expertise spans these diverse areas, allowing us to meet your educational and professional needs. Your satisfaction is our top priority, and we promise to do everything in our power to ensure your success",
+    "childs": {
+      "child1": {
+        "title": "Study Aboard",
+        "text": "Assistance with planning a study abroad experience that is both educationally enriching and personally rewarding."
+      },
+      "child2": {
+        "title": "Trainings",
+        "text": "Improve your abilities with the help of our well designed online training programmes."
+      },
+      "child3": {
+        "title": "IT Staffing",
+        "text": "Raise the bar for your company with our flawless programming experts, perfectly tailored for unmatched efficiency."
+      },
+      "child4": {
+        "title": "Software Development",
+        "text": "Leverage our proficiency in developing pioneering cloud-based applications across multiple platforms, empowering your organisation with state-of-the-art solutions that usher in the digital era."
+      }
+    }
+  },
+  "CarouselSection": {
+    "studyAbroad": {
+      "title": "Study Abroad",
+      "para1": "Nybbletechnosoft offers specialised assistance in organising a study abroad programme that not only enhances academic knowledge but also yields personal fulfilment. We recognise the transformative potential of international education and the importance it places on individuals' lives.",
+      "para2": "Our committed staff is devoted to assisting students in navigating the complexities associated with selecting the appropriate programme, university, and destination for their study abroad endeavours. We guarantee that every aspect of the voyage is customised to suit the unique aspirations and objectives of each student.",
+      "para3": "Nybbletechnosoft is a dependable collaborator in organising a study abroad experience that facilitates personal development, challenges boundaries, and creates indelible memories—from aiding with application processes to offering perspectives on cultural immersion.",
+      "para4": "",
+      "url": "/studyAbroad"
+    },
+    "Trainings": {
+      "title": "Trainings",
+      "para1": "Nybbletechnosoft provides an online training experience that is both dynamic and interactive, enabling you to advance to unprecedented levels of technological proficiency and development.",
+      "para2": "Our extensive training programmes provide hands-on experience in various domains, such as DevOps, Programming Languages, and Salesforce, allowing you to acquire expertise in the areas that are most significant to you.",
+      "para3": "Demonstrating a commitment to ongoing education and skill development, we offer a variety of recurring seminars and courses designed to keep you abreast of the most recent developments and trends in your field.",
+      "para4": "Whether you are an experienced professional seeking to enhance your abilities or a novice enthusiastic about commencing an educational voyage, the online training provided by Nybble Technosoft serves as your entry point to accomplishing your professional objectives and remaining current with technological advancements.",
+      "url": "/online-training"
+    },
+    "ITStaffing": {
+      "title": "IT Staffing",
+      "para1": "Nybbletechnosoft specialises in IT Staffing, offering a comprehensive service to elevate your company's performance. Our top-tier programmers are custom-tailored to your demands, so you can rest assured that they will work quickly and effectively.",
+      "para2": "Our staffing solutions are made to help you succeed whether you need competent people for a one-time job or an ongoing partnership.",
+      "para3": "We are aware of the importance of having skilled workers and the fast-paced nature of the IT sector. We take great care in our hiring practises, so you can rest assured that we'll always put you in touch with professionals who have the knowledge and abilities to successfully complete your tasks.",
+      "para4": "With the help of Nybbletechnosoft's IT staffing services, your company can improve its standards and go forward with the assistance of skilled experts.",
+      "url": "/it-staffing"
+    },
+    "WebDevelopment": {
+      "title": "Software Development",
+      "para1": "Nybbletechnosoft is an organisation that focuses on the development of websites and the creation of digital experiences that combine functional efficacy with visual appeal. Our team is committed to developing digital platforms that provide exceptional user experiences in addition to captivating audiences with their visually breathtaking designs.",
+      "para2": "We possess the necessary skills and knowledge in Web Development, Cloud Development, and Mobile Development to materialise your digital vision, be it a mobile application, a website, or a cloud-based application. By emphasising the integration of technical prowess and innovation, we guarantee that your online presence is distinctive and effectively connects with your target demographic.",
+      "para3": "",
+      "para4": "",
+      "url": "/webDevelopment/web"
+    }
+  },
+  "WhatPeopleSay": {
+    "title": "What People Say?",
+    "feedbacks": [
+      {
+        "image": "./images/Ellipse 33.png",
+        "name": "Sreekanth",
+        "profile": "Trainer",
+        "feedback": "I appreciate the flexibility and autonomy afforded to trainers in tailoring the training curriculum to suit the needs of participants. This freedom allows me to leverage my expertise and adapt the content to ensure maximum relevance and impact."
+      },
+      {
+        "image": "src/pages/homepage/feedback/images/Ellipse 33.png",
+        "name": "Amjad Khan",
+        "profile": "Student",
+        "feedback": "When it comes to online training programmes, none can compare to Nybble Technosoft. Their focus on technical accuracy is commensurate with that of the industry as a whole. The knowledge and training I received far above my expectations has helped me reach new heights in my technical career."
+      },
+      {
+        "image": "src/pages/homepage/feedback/images/Ellipse 33.png",
+        "name": "John",
+        "profile": "Trainer",
+        "feedback": "Nybble Technosoft is the best at developing, promoting, and designing technical content. Their diligent monitoring of technical details is right in line with what the industry expects. They've made working with them an amazing experience that's helped me reach more people and give better technical training."
+      }
+    ]
+  },
+  "WhoAreConnectedWithUs": {
+    "title": "Who are connected with us"
+  }
+}

@@ -1,0 +1,98 @@
+.course-card-container {
+  padding: 0.5rem;
+  border-radius: 10px !important;
+  border: 1px solid #dbcdcd !important;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25) !important;
+
+  @media screen and (max-width: 800px) {
+    margin: 1rem 1rem;
+    width: 80%;
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 1100px) {
+    width: 46%;
+  }
+
+  @media screen and (min-width: 1101px) and (max-width: 1600px) {
+    width: 30%;
+  }
+
+  @media screen and (min-width: 1601px) {
+    width: 25%;
+  }
+
+  &:hover {
+    box-shadow: 5px 5px 6px rgb(0 0 0 / 25%) !important;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+  }
+
+  .faculty-profile-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+
+    .faculty-count {
+      text-decoration: none !important;
+      font-style: italic !important;
+      font-weight: 500;
+      font-size: 11px;
+    }
+
+    .card {
+      width: 20rem;
+    }
+  }
+
+  .card-pricing-container {
+    text-align: right;
+  }
+
+  .course-price {
+    text-decoration-line: line-through;
+    font-weight: 700;
+    font-size: 14px;
+    color: #a65252;
+    margin: 4px;
+  }
+
+  .discounted-price {
+    margin: 4px;
+  }
+
+  .discount-perc {
+    color: green;
+    margin: 4px;
+  }
+
+  .price-btn {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+
+    &:hover {
+      box-shadow: 0px 5px 7px rgb(0 0 0 / 25%) !important;
+      transition: box-shadow 0.2s;
+    }
+  }
+
+  .course-faculty-image {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 0.5px solid rgba(0, 0, 0, 0.03);
+    // background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+
+  .faculty-det-cont {
+    display: flex;
+    flex-direction: row;
+
+    .faculty-count-cont {
+      align-self: center;
+      padding-left: 0.5rem;
+    }
+  }
+}

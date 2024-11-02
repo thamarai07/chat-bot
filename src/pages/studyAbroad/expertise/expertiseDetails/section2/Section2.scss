@@ -1,0 +1,52 @@
+.expertise-highlights {
+  h1 {
+    color: #000
+  }
+.info-section {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  .info-header {
+    font-weight: bold;
+    vertical-align: middle;
+    color: #565555;
+    font-size: 1.3rem;
+  }
+
+  .info-content {
+    font-size: 1.1rem;
+    color: #565555;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-section {
+    .info-header {
+      font-size: 1.25rem;
+    }
+
+    .info-content {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .info-section {
+    .info-header {
+      font-size: 1.25rem;
+    }
+
+    .info-content {
+      font-size: 1rem;
+      text-align: justify;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+}
+}

@@ -1,0 +1,286 @@
+@import "../../../core/coreStyles.scss";
+
+.myProfileBody {
+  padding: 1rem;
+}
+
+.myProfile-coverImg {
+  width: 100%;
+  // margin: 1rem
+}
+
+.containerBody {
+  top: -2rem;
+  position: relative;
+  padding: 0 3rem 0 2rem;
+
+  @media screen and (max-width: 600px) {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+}
+
+.profilePic-img {
+  width: 5rem;
+  height: auto;
+}
+
+.profileName {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2e58b7;
+}
+
+.locationText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #606060;
+}
+
+.designationTitle {
+  font-size: 11px;
+  line-height: 13px;
+  color: #606060;
+}
+
+.flexDisplay {
+  display: flex;
+}
+
+.profileContentResponsive {
+  @media screen and (max-width: 600px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.margin {
+  margin: 1rem;
+}
+
+.cvProfileButtonStyle {
+  background: linear-gradient(#0d71b9, #8813b0);
+  background: -webkit-linear-gradient(#0d71b9, #8813b0);
+  border-radius: 10px;
+  color: white;
+  margin-left: 1rem;
+  font-style: normal;
+  font-weight: 200;
+  text-transform: inherit;
+}
+
+.editContainer {
+  justify-content: space-between;
+}
+
+.headerResponsive {
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.profileTitle {
+  @media screen and (max-width: 600px) {
+    margin-bottom: 1.2rem;
+  }
+}
+
+.jobsProfileButtons {
+  border: 1px solid #b4c0e0;
+  border-radius: 6px;
+  margin: 1rem;
+  color: #606060;
+  text-transform: inherit;
+
+  @media screen and (min-width: 651px) and (max-width: 800px) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 650px) {
+    width: 40%;
+  }
+
+  @media screen and (max-width: 400px) {
+    width: 35%;
+  }
+}
+
+.profileButtonsContainer {
+  margin: 1rem;
+
+  @media screen and (max-width: 600px) {
+    justify-content: space-between;
+    margin: 0;
+  }
+}
+
+.cancelButton {
+  border: 1px solid #b4c0e0;
+  border-radius: 6px;
+  color: #606060;
+  background: linear-gradient(98.92deg, #0d71b9 8.64%, #8813b0 93.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  & svg {
+    background: linear-gradient(98.92deg, #0d71b9 8.64%, #8813b0 93.65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+}
+
+.activeTab {
+  background: linear-gradient(#0d71b9, #8813b0);
+  background: -webkit-linear-gradient(#0d71b9, #8813b0);
+  border-radius: 10px;
+  color: white;
+  text-transform: inherit;
+}
+
+.divider {
+  border-bottom: 1px solid #606060;
+}
+
+.hideOnSm {
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
+
+.tab-profileContent,
+.editProfile-container {
+  padding: 1rem;
+
+  @media screen and (max-width: 600px) {
+    padding: 0rem;
+  }
+}
+
+.profile-overview {
+  border: 1px solid #bec8e4;
+  border-radius: 1rem;
+  width: 40%;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+.profile-description {
+  width: 60%;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.aboutMeTitle {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.overviewTitle {
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.overviewFields {
+  margin: 1rem;
+}
+
+.overviewLabel,
+.helpText {
+  color: #7487a2;
+}
+
+.overviewValue {
+  margin-left: 1rem;
+}
+
+.editProfile-buttonTabs {
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: row;
+  }
+}
+
+.tabButtonsContainer {
+  width: 15%;
+  margin: 1rem;
+
+  @media screen and (max-width: 1100px) {
+    width: 25%;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.tabContentContainer {
+  width: 80%;
+  margin: 1rem;
+
+  @media screen and (max-width: 1100px) {
+    width: 75%;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.errorText,
+.deleteAccount {
+  color: red;
+  cursor: pointer;
+  // width: 3rem
+  margin: 1.2rem;
+}
+
+.uploadButton {
+  height: 3rem;
+  align-self: center;
+  margin-top: 1rem;
+}
+
+.textUnderline {
+  text-decoration: underline;
+  align-self: center;
+}
+
+.formResponsive {
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.saveContainerXs {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.job-container-paper {
+  width: 80%;
+  margin: 2rem;
+
+  @media only screen and (max-width: "800px") {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}

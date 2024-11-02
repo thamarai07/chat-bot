@@ -1,0 +1,52 @@
+.head-office-container {
+    .head-office-title {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .contact-info {
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            .icon-container {
+                border-radius: 2rem;
+                box-shadow: 0px 1px 3px #b9acb6;
+                padding: 0.4rem;
+                margin-right: 1rem;
+                .contact-icon {
+                    font-size: 1.5rem;
+                    width: 2rem;
+                }
+            }
+            
+
+            span {
+                font-size: 1rem;
+                color: #333;
+            }
+        }
+    }
+
+    .map-section {
+        box-shadow: 1px 1px 3px #b9acb6;
+        padding: 10px;
+        border-radius: 10px;
+        .google-map-code {
+            height: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    @media (max-width: 425px) {
+        .head-office-title {
+            font-size: 1.5rem;
+        }
+        .contact-info {
+            .contact-item {
+                margin-bottom: 1rem;
+            }
+        }
+      }
+}
+

@@ -1,0 +1,59 @@
+.counselling-services {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  
+    .title {
+      font-weight: bold;
+      color: #000
+    }
+  
+    .services-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  
+      .service-col {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+  
+      .service-card {
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+        border: none;
+        border-radius: 2px;
+        box-shadow: 0px 2px 2px #bf7cd5;
+        position: static;
+        .card-img-top {
+          width: 5rem;
+          position: absolute;
+          top: -3rem;
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+          box-shadow: 0px 2px 2px #bf7cd5;
+          z-index: 2;
+          background-color: #fff;
+        }
+  
+        .card-title {
+          font-size: 18px;
+          font-weight: bold;
+          color: #0d71b9;
+          margin-bottom: 10px;
+        }
+  
+        .card-text {
+          
+          font-size: 0.85rem;
+          color: #000;
+          width: 100%;
+        }
+      }
+    }
+  }
+  

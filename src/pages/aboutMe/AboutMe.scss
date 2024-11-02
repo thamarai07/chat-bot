@@ -1,0 +1,85 @@
+.background-aboutme {
+  margin: 4%;
+  padding-left: 4%;
+  height: 100%;
+  color: #ffffff;
+  margin-top: 5.5rem;
+}
+.frist-heading {
+  width: 307px;
+  height: 42px;
+  margin-top: 2% !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 39px;
+  background: linear-gradient(98.92deg, #0d71b9 8.64%, #8813b0 93.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+}
+.frist-paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #18232a;
+}
+.facality-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2e58b7;
+}
+.second-facality {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #18232a;
+}
+.third-facality {
+  padding-top: -4px !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #18232a;
+}
+.facality-info {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #18232a;
+}
+
+.aboutme-bread-crumbs {
+  margin-top: -4% !important;
+  .bread-crumbs-link {
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration-color: #000000;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .bread-crumbs-text {
+    margin-top: 4px !important;
+    color: #000000;
+    opacity: 0.8;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .MuiBreadcrumbs-separator {
+    margin: 0px !important;
+    color: #000000;
+  }
+}
+.faculty-details {
+  margin-top: 20px;
+}

@@ -1,0 +1,50 @@
+.expertise-summary-section {
+    background-color: #fff;
+    
+    h1 {
+      color: #000;
+    }
+  
+    p {
+      font-size: 1.2rem;
+      color: #000;
+    }
+    .image-container {
+      justify-content: flex-end;
+    }
+    .img-fluid {
+      width: 100%;
+
+    }
+
+    @media (max-width: 1024px) { 
+      .img-fluid {
+        width: 100%
+      }
+  
+      p {
+        font-size: 1rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+
+      p {
+        text-align: justify;
+      }
+    }
+    
+    @media (max-width: 425px) {
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        text-align: justify;
+      }
+      
+      
+    }
+  }
+  

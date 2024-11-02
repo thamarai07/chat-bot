@@ -1,0 +1,21 @@
+name: 🚀 Deploy website on push
+"on":
+  push:
+    branches:
+      - main
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    - run: node -v
+    - run: npm ci && CI=false npm run build
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      with:
+        server:  ftp.staging.nybbletechnosoft.com
+        username: staging@staging.nybbletechnosoft.com
+        password: ${{ secrets.FTP_PASSWORD}}
+        local-dir: build/

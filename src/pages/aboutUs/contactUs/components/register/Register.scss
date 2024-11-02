@@ -1,0 +1,92 @@
+.register-full-name,
+.register-email,
+.register-phone-number {
+  background: #ffffff !important;
+  border: 1px solid #cecece !important;
+  border-radius: 2px !important;
+
+  &:hover {
+    background: #ffffff !important;
+    border: 1px solid #cecece !important;
+    border-radius: 2px !important;
+  }
+
+  fieldset {
+    border: none !important;
+  }
+}
+
+.modal-container .modal-content {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.register-course-contactus {
+  margin: 0px !important;
+  padding: 0px !important;
+  border: 0px !important;
+  position: static !important;
+  margin-bottom: 25px !important;
+  margin-top: 20px !important;
+  background: #ffffff !important;
+  border-radius: 2px !important;
+
+  &:hover {
+    background: #ffffff !important;
+    border-radius: 2px !important;
+  }
+
+  .MuiOutlinedInput-root {
+    border: 1px solid #cecece;
+    border-radius: 2px;
+
+    .MuiSelect-icon {
+      right: 7px !important;
+    }
+  }
+
+  width: 100%;
+
+  #confirm-experience {
+    height: 10px;
+  }
+
+  fieldset {
+    border: none !important;
+  }
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+
+  .cancel-btn {
+    width: 8rem;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-right: 2rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .register-btn {
+    width: 8rem;
+    height: 53px;
+    background: linear-gradient(98.92deg,
+        #0d71b9 8.64%,
+        #9c1ec8 93.65%) !important;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 20px;
+
+    &:hover {
+      cursor: pointer !important;
+    }
+  }
+}

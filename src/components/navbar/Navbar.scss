@@ -1,0 +1,210 @@
+.nav-bar-container {
+  // height: 30%;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 11;
+
+  // padding-top: 1rem;
+  // padding-left: 40px;
+  .app-bar {
+    // background-color: transparent;
+    box-shadow: none !important;
+  }
+}
+
+.navbar {
+  height: 50%;
+  background: transparent;
+  background-size: cover;
+  background-position: center;
+  padding: 0px !important;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  @media screen and (min-width: 700px) {
+    justify-content: flex-start !important;
+    flex-wrap: nowrap !important;
+  }
+}
+
+.logo {
+  padding: 10px 0 !important;
+  padding-left: 30px !important;
+}
+
+.logo {
+  width: 40px;
+  cursor: pointer;
+}
+
+.nav-link {
+  list-style: none;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  float: right;
+}
+
+.not-active-class {
+  text-decoration: none;
+  color: #fff;
+  // padding: 25px;
+  margin: 0.5rem;
+}
+
+.not-active-class:hover {
+  // width: 100%;
+  // -webkit-text-fill-color: #ffffff;
+  // opacity: 0.7;
+}
+
+.lactive-class {
+  // width: 171px;
+  padding: 5px;
+  margin: 0.5rem;
+  margin-top: 0px;
+  height: 2rem;
+  background: #ffffff;
+  border-radius: 2rem;
+  font-weight: 600 !important;
+  align-self: center;
+
+  .title {
+    background: linear-gradient(92.15deg, #0d71b9 -10.78%, #9c1ec8 113.03%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+}
+
+.side-menu-lactive {
+  .title {
+    color: rgba(13, 113, 185, 1);
+    -webkit-background-clip: text;
+    font-weight: 800;
+    background-clip: text;
+  }
+}
+
+.nav-link a {
+  text-decoration: none;
+}
+
+.menu-drawer {
+  .MuiDrawer-paper {
+    width: 17rem;
+    background: rgba(234, 238, 255, 1);
+  }
+
+  .MuiTreeItem-content {
+    margin-top: 0px !important;
+  }
+}
+
+.drawer-menuOptions {
+  display: flex;
+  flex-direction: column;
+
+  & .not-active-class {
+    color: black;
+  }
+
+  & .lactive-class {
+    padding: 0;
+  }
+}
+
+.navbar-logo {
+  width: 20%;
+  margin-left: 1rem;
+
+  @media screen and (max-width: 600px) {
+    width: 9rem;
+  }
+
+  img {
+    width: auto;
+    height: 52px;
+  }
+}
+
+.navbar-menu {
+  width: 50%;
+  text-align: right;
+  align-items: center;
+  list-style-type: none;
+  margin: 0.875rem 1.2rem;
+  justify-content: end;
+  padding: 0px;
+  margin-left: 0px;
+  li {
+    margin: 0 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    width: 30%;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar-menu {
+    width: 43%;
+  }
+}
+
+.userProfile {
+  .MuiSvgIcon-root {
+    width: 2em;
+    height: 2em;
+  }
+}
+
+.signIn-options {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  // font-weight: 600;
+  font-size: 14px;
+}
+
+.signInText {
+  margin: 1rem;
+}
+
+.signIn {
+  color: #0d71b9;
+  margin: 1rem;
+}
+
+.divider {
+  border-bottom: 1px solid lightgray;
+}
+
+.signUp {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+
+.marquee-container {
+  width: 70%;
+  //border-left: 1px solid lightgray;
+
+  @media screen and (max-width: 650px) {
+    width: 90%;
+  }
+}
+
+.marquee-text {
+  color: rgb(255, 210, 49);
+  padding: 10px;
+}

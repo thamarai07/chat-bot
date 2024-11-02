@@ -1,0 +1,25 @@
+.show-more-container {
+  display: flex;
+  align-items: center;
+  color: #0d71b9;
+  justify-content: center;
+  // width: 17%;
+  &:hover {
+    cursor: pointer;
+  }
+
+  .show-more-link {
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 5px;
+    text-decoration-line: underline;
+  }
+}
+.show-more-false-container-techNews {
+  height: 30rem;
+  overflow: hidden;
+}
+
+.imageUp {
+  transform: rotate(180deg);
+}

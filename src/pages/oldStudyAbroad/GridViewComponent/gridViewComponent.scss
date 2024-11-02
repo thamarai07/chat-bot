@@ -1,0 +1,28 @@
+.os-image {
+  width: 168px;
+  height: 168px;
+  flex-shrink: 0;
+  padding: 2rem;
+}
+.os_title-text {
+  color: #0864a6;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  //   line-height: normal;
+}
+.os_body-text {
+  color: #18232a;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  //   line-height: 30px; /* 150% */
+}
+.body-container {
+  margin: 1rem;
+}

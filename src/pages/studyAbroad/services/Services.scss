@@ -1,0 +1,70 @@
+// ServicesComponent.scss
+.services-section {
+  text-align: center;
+  max-width: 100% !important;
+  .services-title {
+    font-size: 2rem;
+    color: #0864A6;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .service-card {
+    border: none;
+    box-shadow: 1px 2px 3px #6f6b6b;
+    background: linear-gradient(to bottom, #F3F2FF, #EAD1E8);
+    flex: 1;
+    padding:0rem 2rem;
+    .service-icon-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .service-icon {
+      width: 8rem;
+    }
+
+    .service-title {
+      font-size: 1.2rem;
+      color: #0864A6;
+      margin-bottom: 1.7rem;
+    }
+
+    .service-description {
+      font-size: 1rem;
+      color: #565555;
+      // margin-bottom: 3rem;
+      text-align: justify;
+      display: -webkit-box;        /* Defines a flex container */
+      -webkit-box-orient: vertical; /* Sets the orientation of the flex container to vertical */
+      -webkit-line-clamp: 7;       /* Limits the text to 3 lines */
+      overflow: hidden;            /* Hides the overflowing text */
+      text-overflow: ellipsis; 
+    }
+
+    .service-button {
+      border:1px solid linear-gradient(to right #0D71B9, #9C1EC8);
+      font-weight: bold;
+      border-radius: 30px;
+      padding: 10px 20px;
+      background: transparent;
+      float: right;
+      align-self: flex-end;
+      margin-left: auto;
+      .color-text {
+        background: linear-gradient(to right, #0D71B9, #9C1EC8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        &:hover {
+          color: #fff;
+          -webkit-text-fill-color: linear-gradient(to right, #0D71B9, #9C1EC8);
+        }
+      }
+      &:hover {
+        background-color: linear-gradient(to right, #0D71B9, #9C1EC8) !important;
+        color: white;
+      }
+    }
+  }
+}

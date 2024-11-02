@@ -1,0 +1,83 @@
+.filter-row {
+    .form-label {
+      font-weight: bold;
+    }
+  }
+  
+  .blog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 82rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    .custom-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: left;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      .service-icon-wrapper {
+        height: 3rem;
+      }
+
+      .card-title {
+        font-size: 1.25em;
+        color: #fff;
+      }
+  
+      .card-text {
+        display: -webkit-box;        /* Defines a flex container */
+        -webkit-box-orient: vertical; /* Sets the orientation of the flex container to vertical */
+        -webkit-line-clamp: 5;       /* Limits the text to 3 lines */
+        overflow: hidden;            /* Hides the overflowing text */
+        text-overflow: ellipsis; 
+        color: #fff;
+      }
+  
+      .btn {
+        width: 7rem;
+        background: linear-gradient(to right, #0D71B9, #9C1EC8);
+        border: none;
+        color: white;
+        font-weight: bold;
+        border-radius: 1rem;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-right: 5px;
+        .right-arrow {
+          font-size: 1.5rem;
+        }
+        &:hover {
+          background-color: #563d7c;
+        }
+      }
+    }
+  }
+  
+  .blog-card {
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: translateY(-5px);
+    }
+  
+    img {
+      height: 200px;
+      object-fit: cover;
+    }
+  
+    .card-title {
+      font-size: 1.5rem;
+    }
+  
+    .card-text {
+      color: #666;
+      font-size: 0.9rem;
+    }
+  
+    .btn {
+      background-color: #6a1b9a;
+      border-color: #6a1b9a;
+    }
+  }
+  

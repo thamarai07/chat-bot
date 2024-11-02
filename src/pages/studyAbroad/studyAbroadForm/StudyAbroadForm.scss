@@ -1,0 +1,56 @@
+.study-abroad-form {
+    background-color: #F2F1F1;
+    .form-section {
+      h2 {
+        color: #007bff;
+        font-weight: bold;
+      }
+  
+      p {
+        font-size: 1rem;
+        color: #565555;
+      }
+  
+      .form-group {
+      }
+  
+      .submit-button {
+        background: linear-gradient(to right, #007bff, #6610f2);
+        border: none;
+        font-size: 1.2rem;
+        border-radius: 2rem;
+        font-weight: 600;
+      }
+    }
+  
+    .image-section {
+      text-align: center;
+  
+      .person-image {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+  
+  .dropdown-icon {
+    position: relative;
+
+    .dropdown-arrow {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(15%);
+      pointer-events: none;
+    }
+
+    .dropdown-arrow-intake {
+      right: 10px;
+    }
+
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+  }

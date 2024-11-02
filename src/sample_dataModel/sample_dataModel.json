@@ -1,0 +1,85 @@
+{
+  "Jobs_Listing": {
+    "Id": 2,
+    "Industry": "Software",
+    "Status": "true",
+    "companyName": "Amazon",
+    "companyProfile": "Company profile Description......",
+    "description": "job Description.....",
+    "experience": "6-7 years",
+    "jobProfile": "job Profile description to be updated....",
+    "jobType": "Permenant",
+    "location": "Bengaluru",
+    "openings": "05",
+    "salary": "15 LPA",
+    "title": "Senior Developer",
+    "updatedOn": "20 February 2023 at 16:35:20 UTC+5:30"
+  },
+
+  "Register_Courses": {
+    "CourseId": 1,
+    "CourseName": "Cloud Computing",
+    "IsActive": true
+  },
+
+  "blog": {
+    "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    "date": "25 January 2023 at 23:44:21 UTC+5:30",
+    "intro": "Azureee Devops Blog Intro 2",
+    "tags": [
+      "It is an array and should give value of course-name(sub-course) type under which this blog falls"
+    ],
+    "title": "Azuree Devops Blog 2 Title",
+    "popularity": "",
+    "author": "{reference field for faculty which author by which this blog is written",
+    "image": "image url"
+  },
+
+  "course": {
+    "Description": "Azure Devops Course Description to be added here...",
+    "Id": 1,
+    "RelatedSkills": ["AzureDevops Skill1", "AzureDevops Skill2"],
+    "WhatYouLearn": [
+      "Azure Devops WYL1",
+      "Azure Devops WYL2",
+      "Azure Devops WYL3"
+    ],
+    "categories": ["DevOps"],
+    "days": 45,
+    "description": "About DevOps",
+    "discountedPrice": 16000,
+    "faculties": [
+      "{Faculty reference field array: Map respective faculty document path}"
+    ],
+    "insights": [
+      "Real world scenario based training with integrated labs ",
+      "Project",
+      "Resume Support"
+    ],
+    "learn": [
+      "Devops concepts Best practices Tools ",
+      "git",
+      "jenkins",
+      "docker",
+      "kubernetes",
+      "terraform"
+    ],
+    "popularity": 100,
+    "price": 17000,
+    "rating": 4.5,
+    "relatedSkills": ["{array of strings}"],
+    "title": "Azuree DevOps Regular Course",
+    "type": "Regular Course"
+  },
+
+  "faculty": {
+    "experience": "5",
+    "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "main": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including ",
+    "name": "nts faculty",
+    "outro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "profilePicPath": "/profilePic/Sir_Isaac_Newton_1702.jpg",
+    "profilePicUrl": "https://firebasestorage.googleapis.com/v0/b/nts-project-9ef4f.appspot.com/o/profilePic%2FSir_Isaac_Newton_1702.jpg?alt=media&token=291127e6-814c-4930-bd3d-87469181150e",
+    "role": "Devloper"
+  }
+}

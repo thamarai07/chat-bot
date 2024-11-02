@@ -1,0 +1,76 @@
+.program-summary {
+    font-weight: 400;
+    font-size: 16px;
+    color: #18232A;
+    line-height: 24px;
+    margin: 17px 0px !important;
+}
+
+.learn-container,
+.skills-container,
+.blogs-container {
+    margin: 29px 0px !important;
+    .prfile-container {
+        width: 33% !important;
+    }
+    .show-more-blogs-container {
+        margin-top: 18px;
+        .show-more-blogs {
+            font-size: 1rem !important;
+        }
+    }
+    .learn-title,
+    .skills-title,
+    .blogs-title {
+        font-weight: 500 !important;
+        font-size: 24px !important;
+        line-height: 29px !important;
+        background: linear-gradient(92.74deg, #0D71B9 12.16%, #8D22B2 85.75%) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        background-clip: text !important;
+        text-fill-color: transparent !important;
+        padding: 0px !important;
+    }
+
+    .learn-body {
+        font-weight: 400;
+        font-size: 14px;
+        color: #18232A;
+        letter-spacing: 1px;
+        line-height: 32px;
+        margin-top: 20px !important;
+        margin-left: 9px !important;
+
+        .learn-list {
+            padding: 0px !important;
+            color: #18232A !important;
+        }
+    }
+
+    .blogs-body {
+        padding: 0px !important;
+
+        .blog-content {
+            margin-top: 20px;
+        }
+    }
+}
+
+.skills-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-top: 20px;
+
+    .tag-container {
+        margin: 0.5em;
+
+    }
+}
+
+.programDetails-faculty {
+    @media screen and (min-width: 1000px) {
+        display: none;
+    }
+}

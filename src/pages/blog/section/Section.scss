@@ -1,0 +1,56 @@
+.blog-section {
+    .title {
+        font-weight: 700;
+        font-size: 2.5rem;
+        color: #000;
+        text-transform: uppercase;
+      }
+  
+      .subtitle {
+        font-weight: 400;
+        font-size: 2rem;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+  
+      .underline {
+        width: 25rem;
+        height: 7px ;
+        background: linear-gradient(to right, #0D71B9, #9C1EC8);
+        margin-top: 0.5rem;
+      }
+  
+      .description {
+        text-align: justify;
+      }
+      
+      @media (max-width: 768px) {
+        .title {
+          font-size: 2.5rem;
+        }
+  
+        .subtitle {
+          font-size: 2rem;
+        }
+  
+        .underline {
+          width: 15rem;
+        }
+      }
+  
+      @media (max-width: 425px) {
+        .title {
+          font-size: 2rem;
+        }
+  
+        .subtitle {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
+  
+        .underline {
+          width: 15rem;
+        }
+      }
+}

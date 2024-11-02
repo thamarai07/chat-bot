@@ -1,0 +1,103 @@
+
+.counselling-container {
+  .title {
+    color: #000
+  }
+  .image-container {
+    img {
+      border-radius: 10px;
+    }
+  }
+  
+  .text-container {
+  
+    .card-content {
+      background: transparent;
+      border: none;
+    }
+    
+    .title {
+      font-size: 1.5rem;
+      font-size: bold;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+    }
+
+    .header {
+      font-size: 1.5rem;
+      font-size: bold;
+      color: black;
+    }
+  
+    .items {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        display: flex;
+        align-items: center;
+        
+        .icon {
+          color: #ffd700;
+          margin-right: 1rem;
+        }
+      }
+    }
+  
+    .enquire-button {
+      border:1px solid linear-gradient(to right #0D71B9, #9C1EC8);
+      font-weight: bold;
+      border-radius: 30px;
+      padding: 10px 20px;
+      background: transparent;
+      align-self: flex-end;
+      margin-left: auto;
+      .color-text {
+        background: linear-gradient(to right, #0D71B9, #9C1EC8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        &:hover {
+          color: #fff;
+          -webkit-text-fill-color: linear-gradient(to right, #0D71B9, #9C1EC8);
+        }
+      }
+      &:hover {
+        background-color: linear-gradient(to right, #0D71B9, #9C1EC8) !important;
+        color: white;
+      }
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .title {
+      font-size: 1.5rem;
+    }
+    .text-container {
+      .title {
+        font-size: 1.5rem;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+      }
+  
+      .header {
+        font-size: 1.5rem;
+        font-size: bold;
+        color: black;
+      }
+
+      .enquire-button {
+        padding: 8px 20px;
+        font-size: 1rem;
+      }
+      .items {
+        li {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

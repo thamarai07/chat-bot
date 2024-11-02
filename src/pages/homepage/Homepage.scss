@@ -1,0 +1,639 @@
+@import "../../core/coreStyles.scss";
+
+//Home Page Tile View 
+.tile-container {
+  // margin-top: 1.5rem;
+  // margin-left: 0.3rem;
+  display: flex;
+  height: auto;
+}
+
+.tile-fit {
+  width: 100%;
+  height: 100%;
+}
+
+.hoverOverEffect {
+  width: 25%;
+  position: relative;
+  height: calc(100vh - 110px);
+  overflow: hidden;
+
+  .tile-fit {
+    background-size: 100%;
+    transition: transform .3s;
+    background-repeat: no-repeat;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.overlay {
+  background: rgba(24, 35, 43, 1);
+  opacity: 40%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-tileName {
+  position: absolute;
+  height: 25%;
+  bottom: 0%;
+  padding: 1rem 12rem 1rem 1.5rem;
+  background: rgba(24, 35, 43, 0.70);
+  /* font-size: 2rem; */
+
+  width: 100%;
+
+  @media screen and (max-width: 600px) {
+    height: 40%;
+    word-break: break-word;
+  }
+}
+
+.tile-footer-text {
+  color: rgba(255, 210, 49, 1);
+}
+
+.tile-onlineTraining {
+  background: url('../../assets/homePage/study-abrod.png');
+}
+
+.tile-webDevelopment {
+  background: url('../../assets/homePage/WebDevelopment.png');
+}
+
+.tile-itStaffing {
+  background: url('../../assets/homePage/ITStaffing.png');
+}
+
+.tile-cloudDevelopment {
+  background: url('../../assets/homePage/CloudDevelopment.png');
+}
+
+.MuiIconButton-edgeEnd {
+  margin-right: 0;
+}
+
+//Home Page About Us Container
+.about-us-container {
+  margin: 4.3rem 5rem;
+  //   position: absolute;
+  //   display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+  margin-top: 1rem;
+  background: #ffffff;
+
+  .about-us-header {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    color: #1e266d;
+  }
+
+  .about-us-body {
+    margin: 3% 8%;
+    line-height: 2rem;
+    font-weight: 600;
+  }
+
+  .about-us-template {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+
+    @media only screen and (min-width: 700px) {
+      flex-direction: row;
+    }
+  }
+
+
+
+  .blogs-div {
+    width: 25%;
+    top: 3rem;
+    position: relative;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      top: 0rem;
+    }
+  }
+
+  .design-tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2rem;
+    width: 100%;
+    margin-left: 5rem;
+    justify-content: space-evenly;
+
+    @media only screen and (max-width: 800px) {
+      margin-left: 0;
+    }
+
+  }
+}
+
+.mobile-arrow-icon {
+  margin: 15px;
+  background: white;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  width: 44px;
+  height: 44px;
+  padding: 8px;
+  opacity: 70%;
+
+  &:hover {
+    opacity: 0%;
+  }
+}
+
+.mobile-footer-tileName {
+  position: absolute;
+  height: 25%;
+  bottom: 0%;
+  place-content: center;
+  display: grid;
+  background: rgba(24, 35, 43, 0.70);
+  /* font-size: 2rem; */
+  width: 100%;
+}
+
+// Home Page Web Development 
+.web-dev-kit {
+  background: #f5f5f5;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  .web-dev-blog {
+    width: 100%;
+    padding: 2rem;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+    }
+
+    align-content: center;
+
+    .web-dev-title {
+      margin: 2rem;
+      color: #1e266D
+    }
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+    }
+  }
+
+  .techName {
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .trendTag {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #02a91d;
+  }
+}
+
+.arrowIcon {
+  color: #8813B0;
+
+  &:hover {
+    color: white
+  }
+}
+
+// Feedback Styles 
+.people-feedback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0
+}
+
+.fb-title {
+  // margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* identical to box height, or 167% */
+  color: #1e266d;
+}
+
+.testimonial-contianer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .profile-image {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 10rem;
+  }
+
+  .profile-name {
+    text-align: center;
+    color: #1e266d;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .profile-type {
+    text-align: center;
+    color: #606060;
+  }
+
+  .feedback {
+    text-align: center;
+    color: #18232b;
+    font-size: 0.875rem;
+    width: 60%;
+    margin: 10px auto;
+  }
+}
+
+//
+.home-page-container {
+  margin-top: 2.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.connected-with-us {
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.with-us-title {
+  margin: 1rem 0;
+}
+
+.join-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.connected-join-button {
+  width: 12rem;
+  height: 4rem;
+  border-radius: 100px;
+  border-color: rgba(136, 19, 176, 1);
+  color: rgba(136, 19, 176, 1);
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.connect-with-us-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.connect-us-blocks {
+  width: 50%;
+  
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+
+.cwu-image {
+  margin-top: -2rem;
+  display: flex;
+  align-items: center;
+}
+
+.connect-us-image {
+  width: 100%;
+  height: 80%;
+  margin-top: -3rem;
+  border-radius: 10px;
+}
+
+.cwu-input {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cwu-input-title {
+  align-self: center;
+  justify-content: center;
+  /* identical to box height, or 188% */
+
+  text-align: center;
+
+  color: #1e266d;
+  margin-bottom: 2rem;
+}
+
+.contactUs-inputField {
+  width: 100%;
+  border-radius: 5px;
+  color: #595959;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+  border-color: rgba(166, 199, 249, 1);
+  border-width: 0.5pt;
+  border: 1px solid lightgray;
+  margin-top: 1rem;
+
+  fieldset {
+    border: none;
+  }
+
+  .MuiInputBase-input {
+    height: 0.5rem;
+  }
+}
+
+.submission-container {
+  margin-top: 3rem;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.connect-clear {
+  border-radius: 10px;
+  border-width: 0.5px;
+}
+
+.connect-submit {
+  margin-left: 1rem;
+  width: 20%;
+  height: 3rem;
+  color: white;
+  border-color: rgba(136, 19, 176, 1);
+  border-radius: 10px;
+  border-width: 0.2px;
+  background: linear-gradient(98.92deg, #0d71b9 8.64%, #9c1ec8 93.65%);
+  font-weight: 800;
+}
+
+.home-connect-withus-title {
+  color: $titleBlue;
+  text-align: center;
+  margin: 1rem 0
+}
+
+.buttonArrow {
+  color: #8813B0;
+
+  &:hover {
+    color: white
+  }
+}
+
+.home-submit {
+  padding: 0.25rem 2rem
+}
+
+// About Us Section Styles
+
+.aboutUs-image {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 80%;
+    height: auto;
+
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+    }
+  }
+}
+
+.home-about-us {
+  align-items: center;
+}
+
+.home-about-us-description {
+  margin: 1rem 0;
+}
+
+.row {
+  .home-about-us-blogs-container {
+    margin: 1rem 0;
+    flex-direction: column-reverse;
+  }
+
+  .homeBlog-content {
+    margin-top: 2rem;
+    display: inline-grid;
+    padding: 0 4rem;
+
+    @media only screen and (max-width: 800px) {
+      padding: 0;
+    }
+  }
+}
+
+.design-tabs-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0.5rem;
+
+  .icon-1 {
+    width: 58px;
+    height: 58px;
+  }
+}
+
+.icon1 {
+  width: 58px;
+  height: 58px;
+  border-radius: 5px;
+}
+
+.icon-div-design-tabs {
+  width: 10%;
+}
+
+.text-box-1 {
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.text-1 {
+  color: #1e266d;font-size: 1.2rem;
+}
+
+.text-2 {
+  color: #455880;
+  font-size: 0.875rem;
+  margin: 1rem 0;
+}
+
+.Line1 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  border: 1px solid rgba(69, 88, 128, 0.2);
+}
+
+// closing of home About us styles
+
+// Home Page WebDevelopment Block 
+.filledContainer {
+  background: #f5f5f5;
+  margin: 1rem 0;
+}
+
+.home-webDev-courseIcons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+
+.grid-item {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.join-today-cont {
+  margin: 2rem 0;
+  display: flex;
+
+  .buttonText {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.0625);
+    font-weight: bold;
+  }
+}
+
+.arrowIcon {
+  color: #8813B0;
+
+  &:hover {
+    color: white
+  }
+}
+
+// Client Logo area Styles
+.client-logo {
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    height: 90px;
+    margin: 10px 20px;
+  }
+
+  //img:first-child {margin-left: 0px;}
+  //img:last-child {margin-right: 0px;}
+}
+
+
+// closing of home WedDev styles
+// Respnsive CSS
+
+@media screen and (max-width: 800px) {
+  .hoverOverEffect {
+    height: calc(100vh - 300px);
+  }
+
+  .mobile-footer-tileName {
+    height: 20%;
+  }
+
+  .menu-drawer .MuiDrawer-paper {
+    width: 100%;
+  }
+
+  .drawer-menuOptions .MuiTypography-body1,
+  .drawer-menuOptions .makeStyles-labelText-5 {
+    font-size: 1.25rem;
+  }
+
+  .drawer-menuOptions .makeStyles-root-1 {
+    max-width: 95%;
+  }
+}
+
+.carousel-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  top: 1rem;
+}
+
+.arrow-buttons {
+  margin-top: -2rem;
+  height: 2rem;
+  display: flex;
+  color: blue;
+  width: 5rem;
+  border: 1px solid;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  border-color: gray;
+
+  svg {
+    font-size: 1.7rem;
+  }
+}
+.logos-container{
+  justify-content: space-between;
+    margin-bottom: 3rem;
+}

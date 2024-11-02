@@ -1,0 +1,48 @@
+.country-highlights {
+  h1 {
+    color: #000
+  }
+.info-section {
+  background-color: #fff;
+  box-shadow: 0px 1px 2px #4d235d;
+  border-radius: 4px;
+  .info-header {
+    font-weight: bold;
+    vertical-align: middle;
+    color: #000;
+    font-size: 1.3rem;
+  }
+
+  .info-content {
+    font-size: 1.1rem;
+    border-left: 2px solid #0b3f92;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-section {
+    .info-header {
+      font-size: 1.25rem;
+    }
+
+    .info-content {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .info-section {
+    .info-header {
+      font-size: 1.25rem;
+    }
+
+    .info-content {
+      font-size: 1rem;
+      border: none;
+      border-top: 2px solid #0b3f92;
+    }
+  }
+}
+  
+}

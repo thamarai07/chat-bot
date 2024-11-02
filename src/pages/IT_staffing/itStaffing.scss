@@ -1,0 +1,354 @@
+.it-staffing-cover {
+  height: 10rem;
+}
+
+.it-staffing-bread-crumbs {
+  margin-left: 3rem;
+}
+
+.it-staffing-container {
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  top: calc(6% - 1rem);
+
+  .cover-image {
+    height: auto;
+    width: 100%;
+    top: 2rem;
+    border-radius: 20px;
+  }
+
+  .it-staffing-submit {
+    background: linear-gradient(#0d71b9, #8813b0);
+    background: -webkit-linear-gradient(#0d71b9, #8813b0);
+    border-radius: 10px;
+    margin: 0rem;
+    margin-left: 2rem;
+
+    @media only screen and (max-width: 1300px) {
+      position: relative;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+    }
+  }
+}
+
+.register-form-show-it {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  box-shadow: 1px 2px 3px;
+  bottom: 3rem;
+  position: relative;
+  background: rgba(249, 249, 249, 1);
+
+  @media screen and (max-width: "600px") {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align-last: center;
+    text-align: -webkit-center;
+    text-align: center;
+    box-shadow: 0px 1px;
+    height: auto;
+    margin: auto;
+    margin-top: 1rem;
+  }
+}
+
+.full-name,
+.phone-number,
+.email {
+  .MuiInput-root {
+    font-style: italic;
+    width: 12.5rem;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-right: 1px solid #c1c1c1;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+
+    @media only screen and (max-width: 1300px) {
+      border-bottom: 1px solid #c1c1c1 !important;
+      border-right: 2px solid #c1c1c1;
+      width: 100% !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+      border-bottom: 1px solid #c1c1c1 !important;
+      border-right: none;
+      width: 98% !important;
+    }
+  }
+}
+
+.fields-block {
+  display: flex;
+
+  @media only screen and (max-width: 1300px) {
+    justify-content: space-between;
+    width: 90%;
+    padding: 1rem;
+  }
+
+  @media only screen and (max-width: 800px) {
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .MuiFormHelperText-root {
+    text-align: center;
+  }
+}
+
+.uploadResume {
+  font-weight: bold;
+  // color: dodgerblue;
+  word-break: break-all;
+  color: #0d71b9;
+  font-style: italic;
+  text-decoration: underline;
+  padding: 0.5em;
+  border: none;
+  border-radius: none;
+  background: none;
+}
+
+.upload-block {
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  align-items: center;
+}
+
+.it-staffing-bodycontainer {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+
+  @media only screen and (max-width: "800px") {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.body-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.it-staffing-jobs-sortingField {
+  height: 2rem;
+  margin: 3px;
+
+  // & .MuiFormControl-root {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+
+  // }
+  & .MuiOutlinedInput-root {
+    border-radius: 8rem;
+    width: 12rem;
+    margin-left: 1rem;
+    height: 2rem;
+  }
+
+  & .MuiInputLabel-root {
+    align-self: center;
+  }
+}
+
+.it-staffing-jobs-searchField {
+  border-radius: 8rem !important;
+  width: 12rem;
+  height: 2.5rem;
+
+  @media only screen and (max-width: "800px") {
+    width: 18rem;
+    margin-top: 1rem;
+  }
+
+  // margin: 3px;
+}
+
+.filters {
+  justify-content: space-between;
+  // width: 80%;
+  flex-wrap: wrap;
+
+  @media only screen and (max-width: "800px") {
+    justify-content: right;
+  }
+
+  @media only screen and (max-width: "500px") {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.filters-container {
+  @media only screen and (max-width: "800px") {
+    margin-top: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+}
+
+.sort-by-container {
+  @media only screen and (max-width: "800px") {
+    margin-bottom: 2rem;
+  }
+}
+
+.jobsContainer {
+  display: flex;
+
+  @media only screen and (max-width: "800px") {
+    flex-direction: column;
+  }
+}
+
+.jobList-container {
+  width: 55.5rem;
+
+  @media only screen and (max-width: "800px") {
+    width: 100%;
+  }
+}
+
+.apply-now {
+  background: linear-gradient(#0d71b9, #8813b0);
+  background: -webkit-linear-gradient(#0d71b9, #8813b0);
+  height: 2rem;
+  float: right;
+}
+
+.padding1rem {
+  padding: 1rem;
+}
+
+.hiringCompanies-container {
+  border-radius: 1rem;
+  width: 30%;
+  min-height: 20rem;
+  border-radius: "1rem";
+  margin-top: "1rem auto 0px auto";
+  @media only screen and (max-width: "800px") {
+    width: 95%;
+    margin: 1rem;
+  }
+}
+
+.centerAlign {
+  text-align: center;
+}
+
+.formsubmitbtn {
+  display: inline;
+  width: 10rem;
+  margin: 1rem;
+}
+
+// .app-content {
+//   background-color: #f4f5f6;
+// }
+.job_title {
+  font-family: "Inter";
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+.job-description {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(96, 96, 96, 1);
+  margin-top: 0.25rem;
+  line-height: 1.2rem;
+  overflow: hidden;
+}
+
+.experience-num,
+.salary-amt,
+.openings-count {
+  font-family: "Inter";
+  // font-size: 2rem;
+  font-weight: 900;
+  line-height: 2rem;
+}
+
+.sal-exp-op-container {
+  margin-right: 1.2rem;
+}
+
+.sal-exp-op-label {
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+}
+
+.apply-now-btn {
+  width: 9.313rem;
+  height: 2.5rem;
+}
+
+// JOB Card Styles
+
+.job-container-paper {
+  width: 95%;
+  margin: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: rgba(0, 0, 0, 0.0225);
+  border-radius: 1rem;
+
+  @media only screen and (max-width: "800px") {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.job-details-card {
+  display: flex;
+  height: auto;
+  max-height: 20rem;
+  box-shadow: 0px 2px 1px 1px lightgrey;
+  border-radius: 1rem;
+
+  @media only screen and (max-width: "600px") {
+    flex-direction: column !important;
+  }
+}
+
+.companyImage {
+  width: 85%;
+  height: auto;
+  max-height: 10rem;
+  padding: 1rem;
+}
+
+.jobCard-bottom {
+  width: 100%;
+  display: flex;
+  margin: 1rem;
+}
+.jobsList {
+  display: flex;
+  flex-direction: row;
+}

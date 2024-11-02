@@ -1,0 +1,227 @@
+.mobile-development-container {
+  display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  flex-direction: column;
+  position: relative;
+
+  .mobile-dev-header {
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .header-title {
+    margin-top: 2rem;
+    color: #fff;
+    font-family: Inter;
+    font-size: 4.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 50%;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      font-size: 2.125rem;
+      height: fit-content;
+    }
+  }
+
+  .header-subtitle {
+    width: 70%;
+    color: #fff;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .android-app-dev-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      height: fit-content;
+      flex-direction: column;
+    }
+
+    .android-text-container {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+
+      @media screen and (max-width: 800px) {
+        justify-content: start;
+        width: 100%;
+      }
+    }
+
+    .android-text {
+      align-self: center;
+      width: 80%;
+
+      @media screen and (max-width: 800px) {
+        width: 100%;
+        padding-left: 1rem;
+      }
+    }
+
+    .android-image-container {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: -4rem;
+      width: 50%;
+
+      @media screen and (max-width: 800px) {
+        width: 100%;
+      }
+    }
+
+    .android-image {
+      width: 100%;
+    }
+
+    .android-app-dev-body {
+      margin: 2rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      @media screen and (max-width: 800px) {
+        flex-direction: column;
+      }
+
+      .android-body-text {
+        padding: 5rem;
+        width: 50%;
+
+        @media screen and (max-width: 800px) {
+          width: 100%;
+          padding-left: 2rem;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .body-title {
+    color: #0864a6;
+    font-family: Montserrat;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 3rem;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      font-size: 2.125rem;
+      height: fit-content;
+    }
+  }
+
+  .body-content {
+    color: #18232a;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 2rem;
+    //   line-height: 30px; /* 150% */
+  }
+
+  .ios-app-dev-container {
+    background: linear-gradient(105.58deg, #f3f2ff 0.61%, #ead1e8 99.02%);
+    display: flex;
+    justify-content: space-between;
+
+    .ios-app-dev-body {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      flex-direction: row;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .ios-app-dev-img {
+      margin-left: -2rem;
+      width: 100%;
+
+      @media screen and (max-width: 800px) {
+        margin-left: 0;
+      }
+    }
+
+    .ios-text-container {
+      padding-left: 2rem;
+
+      @media screen and (max-width: 800px) {
+        width: 100%;
+        padding-left: 1rem;
+      }
+    }
+  }
+
+  .with-us-title {
+    color: #1e266d;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: Bold;
+    font-weight: 700;
+    line-height: 60px;
+
+    /* 187.5% */
+    @media screen and (max-width: 800px) {
+      font-size: 2.125rem;
+    }
+  }
+
+  .filledContainer {
+    background-color: white;
+  }
+
+  .join-today-btn {
+    margin: 4rem;
+  }
+
+  .gradientButtonStyle {
+    height: 3.875rem;
+    width: 15.125rem;
+  }
+}
+
+.header-side-Image {
+  position: absolute;
+  width: 23.063rem;
+  height: 22.438rem;
+  margin-left: 61.563rem;
+  margin-top: 5.625rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.get-in-touch-container {
+  background-color: #f5f5f5;
+
+  .get-in-touch-image {
+    width: 100%;
+  }
+}
+
+.flex-direction-column {
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  .full-width {
+    @media screen and (max-width: 800px) {
+      width: 100%;
+    }
+  }
+}

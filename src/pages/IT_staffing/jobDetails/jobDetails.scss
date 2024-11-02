@@ -1,0 +1,116 @@
+.job-details-page {
+  padding: 2rem;
+  width: 100%;
+}
+
+.job-details-page-cover-image {
+  width: 100%;
+  border-radius: 4rem;
+}
+.job-details-container {
+  width: 100%;
+  //   padding: 2rem;
+  border: 1px solid #bec8e4;
+  border-radius: 4rem;
+  //   margin: 2rem;
+  margin-top: 1rem;
+}
+.job-details-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+.job-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2e58b7;
+  margin-bottom: 1rem;
+}
+.spanText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #606060;
+  margin: 1rem;
+}
+.apply-now {
+  background: linear-gradient(98.92deg, #0d71b9 8.64%, #8813b0 93.65%);
+  height: 2rem;
+  float: right;
+}
+.Already-applied {
+  // height: 1rem;
+  float: right;
+  text-align: center;
+  font-size: 1rem;
+  color: lightgray;
+}
+
+.overviewContainer {
+  display: flex;
+  width: 100%;
+  //   margin: 1rem;
+  @media only screen and (max-width: "800px") {
+    flex-direction: column;
+  }
+}
+.flexColumn {
+  flex-direction: column;
+}
+
+.overview {
+  width: 60%;
+  @media only screen and (max-width: "800px") {
+    width: 100%;
+  }
+}
+
+.halfWidth {
+  width: 50%;
+}
+
+.overview-block {
+  margin: 1rem;
+  padding: 2rem;
+  border: 1px solid #bec8e4;
+  border-radius: 4rem;
+}
+
+.similarJobs {
+  width: 40%;
+  height: min-content;
+  @media only screen and (max-width: "800px") {
+    width: auto;
+    border: none;
+  }
+}
+.similar-jobs-list {
+  display: flex;
+  flex-direction: column;
+  @media only screen and (max-width: "800px") {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+.similar-job {
+  width: 50%;
+  margin: 0.5rem;
+}
+
+.displayAttributes-containers {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5rem;
+  width: 100%;
+}
+.attributesList {
+  width: 45%;
+}

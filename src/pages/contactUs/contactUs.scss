@@ -1,0 +1,112 @@
+.contact-coverImg {
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.contactUs-container {
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.contactUs-page {
+    background: #f6f6f6;
+    width: 100%;
+}
+
+.contactUs-header {
+    margin-left: 2rem;
+}
+
+.google-map-code {
+    width: 100%;
+    height: 20rem;
+    padding: 1rem;
+}
+
+.contact-location {
+    p {
+        margin: 0
+    }
+}
+
+.text {
+    // font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    background: linear-gradient(#0d71b9, #8813b0);
+    background: -webkit-linear-gradient(#0d71b9, #8813b0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-transform: initial;
+}
+
+.hideTextSm {
+    @media screen and (max-width: 600px) {
+        display: none
+    }
+}
+
+.contactForm-body {}
+
+.contactForm-tabContainer {
+    display: flex;
+    height: 8rem;
+}
+
+.activeTab {
+    background: white
+}
+
+.contactForm-formContainer {
+    background: white;
+    display: flex;
+    padding: 1rem
+}
+
+.inactiveTab {
+    background: lightgray;
+
+    .text {
+        color: black;
+        font-family: "Montserrat";
+        font-style: normal;
+        -webkit-text-fill-color: grey;
+    }
+}
+
+.tab {
+    width: 25%;
+    cursor: pointer;
+    width: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tab-icon {
+    img {
+        width: 2rem;
+        height: auto
+    }
+
+}
+
+.address-details {
+    @media screen and (max-width: 650px) {
+        flex-direction: column-reverse;
+    }
+}
+
+.contactUs-inputField {
+    width: 80%;
+
+    @media screen and (max-width: 650px) {
+        width: 100%;
+    }
+}

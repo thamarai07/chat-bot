@@ -1,0 +1,34 @@
+{
+  "Overview": {
+    "title": "Overview",
+    "para1": "Nybble Technosoft (NTS) Was Founded in 2017 and has provided IT Training For Students, New Graduates, Professionals, And Companies For Five Years. The best training facility for information technology in India is NTS. NTS additionally offers web development services, as well as job placement assistance in numerous nations throughout the world, in addition to IT training and certification."
+  },
+  "WhoWeAre": {
+    "title": "Who We Are",
+    "para1": "Nybble Technosoft (NTS) was established in 2017 and has provided IT training to students, freshmen, professionals, and businesses for the past five years. NTS is India's best information technology training center. In addition to IT training and certification, NTS also offers web development and job placement services in various countries worldwide. The opportunity to obtain an IT certification and web development skills, as well as the chance to be hired by both Indian and foreign companies, are only provided by Nybble Technosoft. You can become an expert in various IT fields, enjoy the thrill of cooperating with other businesses, and participate in industry workshops."
+  },
+  "WhyChooseUs": {
+    "title": "Why Choose Us",
+    "para1": "Nybble Technosoft is looking to take your career forward to more modern and exciting territories due to the ever-increasing importance of digital skills. To become a better professional in the calibrated process, NTS offers web development services, job placement support in India and abroad organizations, and the best IT certification courses. Our group consists of young professionals who enjoy working in the IT sector. As a company, we are influencing the future together and will be able to open up a lot of opportunities for our clients and partners. We connect the most influential businesses with the largest workforce in the world, making it simpler than ever to find work and establish connections."
+  },
+  "Passionate": {
+    "title": "WE WILL ASSIST YOU IN DISCOVERING YOUR AREA OF INTEREST",
+    "childs": {
+      "child1": {
+        "title": "Discover Your personal space",
+        "text": "Find out what you want to learn online and then pick what is best for you to learn and study."
+      },
+      "child2": {
+        "title": "Learn from industry professionals.",
+        "text": "Find out what you want to learn online and then pick what is best for you to learn and study."
+      },
+      "child3": {
+        "title": "Discover video tutorials on virtually every subject",
+        "text": "Find what you want to learn online and pick the subject you are interested in the most so you can study it."
+      }
+    }
+  },
+  "ContactUs": {
+    "title": "For more Queries please Reach Us...!"
+  }
+}

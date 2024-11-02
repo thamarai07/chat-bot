@@ -1,0 +1,111 @@
+.tech-news-card {
+  padding: 30px;
+  // margin: 20px;
+  box-shadow: 0px -2px 8px 5px rgba(0, 0, 0, 0.06);
+}
+.dividerRow {
+  background-color: rgba(70 66 66);
+}
+.tech-news-card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  background: linear-gradient(92.15deg, #0d71b9 -10.78%, #9c1ec8 113.03%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.tech-desing-heading {
+  margin: 3% !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #18232a;
+}
+.tech-desing-date {
+  padding-left: 3%;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  color: #606060;
+}
+.tech-desing-fristpara {
+  padding-left: 3% !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #606060;
+}
+.development-trends {
+  margin-top: -4% !important;
+}
+.tech-development-heading {
+  margin: 2% !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #18232a;
+}
+.tech-development-date {
+  padding-left: 3%;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #606060;
+}
+.tech-development-secondpara {
+  padding-left: 3% !important;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #606060;
+}
+.tech-app-heading {
+  margin-top: -3% !important;
+  padding-left: 3% !important;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #18232a;
+}
+.tech-app-date {
+  padding-left: 3%;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #606060;
+}
+.tech-app-thirdpara {
+  padding-left: 3%;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #606060;
+}
+.tech-app-more {
+  margin-bottom: 4%;
+  padding-left: 54%;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  color: #0d71b9;
+}

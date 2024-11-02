@@ -1,0 +1,121 @@
+.country-universities-container {
+  .university-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    min-width: 250px;
+    // .logo {
+    //   width: 50px;
+    //   margin-right: 15px;
+    // }
+    .details {
+      font-size: 1rem;
+      .name {
+        font-weight: bold;
+      }
+      .location {
+        color: grey;
+      }
+    }
+  }
+  margin: 7rem auto;
+  margin-bottom: 0px;
+  width: 100%;
+  // background: linear-gradient(to right, #0a64b4, #a40291);
+  padding: 3rem 0px;
+  padding-bottom: 5rem;
+  text-align: center;
+  .country-universities-title-container {
+    width: 100%;
+    text-align: center;
+  }
+  .section-title {
+    font-size: 2.5em;
+    color: #000;
+    margin-bottom: 30px;
+  }
+
+  .react-multiple-carousel__arrow  {
+    z-index: 0 !important;
+  }
+
+  .react-multi-carousel-track  {
+    
+  }
+
+  // .country-universities-carousel {
+  //   .carousel-inner {
+  //     display: flex;
+  //     align-items: center;
+
+  //     .carousel-item {
+  //       // display: flex;
+  //       // justify-content: center;
+  //       // width: 50%;
+  //     }
+  //   }
+
+  //   .carousel-control-prev {
+  //     .carousel-control-prev-icon {
+  //       background-color: #fff;
+  //       width:3rem !important;
+  //       height: 3rem !important;
+
+  //       background-image: url("../../../../../assets/rightArrowIcon.svg");
+  //       transform: rotate(180deg);
+  //     }
+  //   }
+
+  //   .carousel-control-next {
+  //     .carousel-control-next-icon {
+  //       background-color: #fff;
+  //       width:3rem !important;
+  //       height: 3rem !important;
+  //       background-image: url("../../../../../assets/rightArrowIcon.svg");
+  //     }
+  //   }
+  //   .testimonial-group {
+  //     width: 100%;
+  //     display: flex;
+  //     justify-content: space-between;
+  //     padding: 0px 8rem;
+  //   }
+
+    
+  // }
+
+  .uni-card {
+    width: 20rem
+  }
+
+  @media (max-width: 768px) {
+    .uni-card {
+      width: 16rem
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .section-title {
+      font-size: 1.6rem;
+    }
+      .uni-card {
+        width: 24rem
+      }
+  }
+  
+  @media (max-width: 375px) {
+    .uni-card {
+      width: 21.5rem
+    }
+  }
+
+  @media (max-width: 320px) {
+    .uni-card {
+      width: 18.5rem
+    }
+  }
+}
+

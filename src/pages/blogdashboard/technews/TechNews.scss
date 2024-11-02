@@ -1,0 +1,51 @@
+.tech-news-container {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .latest-news-header {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  
+  .news-items-container {
+    max-height: 30rem;
+    overflow-y: hidden;
+  }
+  
+  .news-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .news-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .news-date {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.85rem;
+    color: #777;
+  }
+  
+  .news-content {
+    font-size: 0.95rem;
+    color: #333;
+  }
+
+  .news-content-link {
+    text-decoration: none;
+    color: inherit;
+  
+    &:hover {
+      text-decoration: underline;
+      color: #6f42c1; // Change this color to your preferred hover color
+      cursor: pointer;
+    }
+  }
+  

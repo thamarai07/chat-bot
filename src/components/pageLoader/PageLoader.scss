@@ -1,0 +1,78 @@
+// Modal
+.modal-wrapper {
+  .modal.show {
+    overflow: auto;
+  }
+
+  .modal-content {
+    padding: 30px 47px;
+    border-radius: 8px;
+  }
+
+  .modal-content .modal-header {
+    padding: 0;
+    position: relative;
+    border-bottom: none;
+
+    .close {
+      top: 0;
+      right: -16px;
+      opacity: 1;
+      padding: 0 0.5rem;
+      position: absolute;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .modal-body {
+    font: {
+      size: 14px;
+    }
+    padding: 0;
+    text-align: left;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  .modal-Moviess {
+    box-sizing: border-box;
+    padding: 2rem 0 0 0;
+    border-top: none;
+    justify-content: center;
+  }
+
+  .modal.fade.show {
+    display: block;
+  }
+
+  .modal-backdrop {
+    background-color: transparent;
+  }
+
+  .modal-lg {
+    height: 600px;
+    width: 500px;
+  }
+
+  .loader {
+    width: 100%;
+    height: inherit;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 150px;
+      transform: translate3d(-50%, -50%, 0) scale(0.5);
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.gallery-header-banner {
+  width: 100%;
+  .gallery-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .gallery-details-header-title {
+    height: 100%;
+    color: #fff;
+    width: 100%;
+    background: linear-gradient(to right, #9C1EC8 1%, transparent);
+    opacity: 1;
+    .title {
+      font-weight: 700;
+      font-size: 5rem;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 425px) {
+      .title {
+        font-size: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.prfile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: capitalize;
+  .profile-img-container {
+    width: fit-content;
+    align-self: center;
+    .profil-img {
+      border-radius: 100%;
+      width: 2.25rem;
+      height: 2.25rem;
+    }
+  }
+  .profile-name-container {
+    align-items: center;
+    width: fit-content;
+    padding-left: 0.5rem;
+    .profile-name {
+      margin-bottom: 0;
+      font-weight: 600;
+      font-size: 16px;
+      background: linear-gradient(93.56deg, #0d71b9 2.33%, #8d22b2 96.87%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .profile-designation {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #18232b;
+  }
+}
+.show-more-false-container-blogs {
+  min-height: fit-content;
+  max-height: 20rem;
+  overflow: hidden;
+}
+.show-more-false-container-faculty {
+  min-height: fit-content;
+  max-height: 8rem;
+  overflow: hidden;
+}
+.show-more-false-container-insights {
+  min-height: fit-content;
+  max-height: 10rem;
+  overflow: hidden;
+}
+.show-more-true-container {
+  height: fit-content;
+}
+.faculty-intro {
+  padding-top: 1rem;
+  font-weight: 400;
+  font-size: 14px;
+  color: #18232a;
+}

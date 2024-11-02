@@ -1,0 +1,107 @@
+.about-us{
+  .cover-container {
+    //height: 100%;
+    //width: 100%;
+    //background: linear-gradient(100.81deg, #0d71b9 11.71%, #8d22b2 80.17%);
+    // background: #18232B !important;
+    background: linear-gradient(100.81deg, #0d71b9 11.71%, #8d22b2 80.17%);
+  }
+
+}
+.cover {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 7.6rem;
+
+  .cover-container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(100.81deg, #0d71b9 11.71%, #8d22b2 80.17%);
+  }
+}
+
+.about-us,
+.blogs,
+.blog,
+.web-development {
+  background: url("../../assets/cover.jpg");
+  background-size: cover;
+  height: 22rem;
+
+  .cover-container {
+    opacity: 0.8;
+  }
+}
+
+.web-development,
+.clouddevelopment {
+  background: url("../../assets/webDevelopment/web-development-baground.png");
+  height: 32rem;
+
+  .cover-container {
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    opacity: 0.4;
+  }
+}
+
+.cloud-Development {
+  background: url("../../assets/hero-rectangle.png");
+  background-size: cover;
+  height: 30rem;
+
+  .cover-container {
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    opacity: 0.4;
+  }
+}
+
+.clouddevelopment {
+  background: url("../../assets/cloud-rectangle.png");
+}
+
+.about-me {
+}
+
+.course {
+  height: 25rem;
+
+  .cover-container {
+    opacity: 1;
+  }
+}
+
+.online-course {
+  height: 100%;
+  background: #f1eeee !important;
+
+  .cover-container {
+    border-bottom-left-radius: 9rem;
+    opacity: 1;
+  }
+}
+.study-abroad {
+  background: url("../../assets/studyabroad/hero-rectangle.png");
+  height: 100%;
+  .cover-container {
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    opacity: 0.4;
+  }
+}
+
+.studyAbroadCover {
+  background: url("../../assets/studyabroad/hero-rectangle.png");
+  height: 32rem;
+  .cover-container {
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    opacity: 0.4;
+  }
+}

@@ -1,0 +1,15 @@
+name: build 
+"on":
+  push:
+    branches:
+      - old
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    - run: node -v
+    - run: npm ci && CI=false npm run build
+    
